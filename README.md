@@ -7,7 +7,7 @@ neodeslané commity nahrají na GitHub.
 # Část 1.1
 
 Vytvořte metody na kreslení základních tvarů s parametrickou délkou strany: rovnostranného trojúhelníku (trojúhelník,
-který má všechny tři strany stejně dlouhé), čtverce, obdelníku a kolečka.
+který má všechny tři strany stejně dlouhé), čtverce, obdelníku a kolečka (ve skutečnosti to opět bude mnohoúhelník).
 
 Následující sekce (*Opakování a detailní navedení k problému*) je myšlena jako opakování látky z hodiny, který vám
 pomůže k řešení. Pokud víte, jak naprogramovat parametrizované metody zadané výše, můžete pokračovat k podnadpisu
@@ -88,7 +88,7 @@ var velikostPrepony = Math.sqrt(2*Math.pow(velikostStrany, 2));
 
 ## Část 1.2 – Detailní zadání
 
-Vytvořte tedy parametrizované metody na kreslení rovnostranného trojuhelníku, čtverce, obdelníku a kolečka. Metody pro
+Vytvořte tedy parametrizované metody na kreslení rovnostranného trojuhelníku, čtverce, obdelníku a kolečka (mnohoúhelníku). Metody pro
 nakreslení rovnostranného trojúhelníku a čtverce by měly přijímat jako vstupní parametr velikost strany (typu `double`).
 V případě obdelníku budou nutné dva parametry (strana A, strana B). V případě kolečka se bude předávat velikost
 kolečka (zda to bude poloměr, průměr nebo nějaká jiná charakteristika, nechám na vás). Pro mašinku si můžete připravit i metodu
