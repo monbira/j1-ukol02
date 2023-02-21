@@ -21,11 +21,9 @@ která přijímá jako vstupní parametr `velikostStrany` typu `double`. Navenek
 hodnotou, uvnitř metody se `velikostStrany` chová jako proměnná (proto musí mít definovaný typ, např. `double`).
 
 ```java
-Turtle zofka;
+Turtle zofka = new Turtle();
 
-public void main(String[]args) {
-        zofka = new Turtle();
-
+public void start() {
         zofka.setLocation(100.0,100.0);
         // Volani metody, do ktere se preda hodnota 50.0
         nakresliRovnostrannyTrojuhelnik(50.0);
@@ -50,10 +48,9 @@ public void nakresliRovnostrannyTrojuhelnik(double velikostStrany) {
 Metoda může přijímat i více parametrů za sebou (oddělujeme čárkou):
 
 ```java
-Turtle zofka;
+Turtle zofka = new Turtle();
 
-public void main(String[]args) {
-        zofka = new Turtle();
+public void start() {
 
         Color cervenaBarva;
         cervenaBarva=new Color(255,0,0);
