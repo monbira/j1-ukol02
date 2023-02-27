@@ -10,14 +10,25 @@ public class HlavniProgram {
     public void start() {
         zofka.setPenColor(Color.black);
         zofka.setPenWidth(5);
-       /* zofka.setLocation(200,200);
-        nakreslitrojuhelnik(100);
-        zofka.setLocation(400,400);
-        nakreslictverec(40);
-        zofka.setLocation(300,300);
-        nakresliobdelnik(200, 300);*/
-        zofka.setLocation(200,200);
-        nakreslikolecko(50);
+
+        zofka.setLocation(150, 100);
+        nakreslikolecko(10);
+        zofka.setLocation(145,120);
+        zofka.turnLeft(90);
+        nakreslitrojuhelnik(108);
+
+        zofka.setLocation(250,70);
+        nakreslikolecko(7);
+        zofka.setLocation(250,150);
+        nakreslikolecko(10);
+        zofka.setLocation(250,265);
+        nakreslikolecko(14);
+        zofka.setLocation(330,175);
+        nakreslikolecko(3);
+        zofka.setLocation(180,175);
+        nakreslikolecko(3);
+
+
 
     }
 
