@@ -34,13 +34,21 @@ public class HlavniProgram {
         zofka.move(150);
         zofka.turnLeft(180);
         nakreslikolecko(9);
-        zofka.setLocation(800,100);
+        zofka.setLocation(800,250);
+        zofka.move(85);
         zofka.turnLeft(90);
-        /*
-        zofka.move(100);
+        nakresliobdelnik(160,85);
+        zofka.turnLeft(90);
+        zofka.move(85);
         zofka.turnRight(90);
-        zofka.move(8); */
-        nakresliobdelnik(180,120);
+        zofka.move(60);
+        nakreslikolecko(4);
+        zofka.move(65);
+        nakreslikolecko(4);
+        zofka.move(35);
+        zofka.turnRight(90);
+        zofka.setLocation(640,280);
+        nakreslitrojuhelnik(90);
 
 
 
