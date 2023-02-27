@@ -2,16 +2,22 @@ package cz.czechitas.turtle;
 
 import cz.czechitas.turtle.engine.*;
 
+import java.awt.*;
+
 public class HlavniProgram {
     private Turtle zofka = new Turtle();
 
     public void start() {
-        zofka.setLocation(200,200);
-        nakreslitrojuhelnik(300);
-        zofka.setLocation(200,200);
+        zofka.setPenColor(Color.black);
+        zofka.setPenWidth(5);
+       /* zofka.setLocation(200,200);
+        nakreslitrojuhelnik(100);
+        zofka.setLocation(400,400);
         nakreslictverec(40);
         zofka.setLocation(300,300);
-        nakreslikolecko(300);
+        nakresliobdelnik(200, 300);*/
+        zofka.setLocation(200,200);
+        nakreslikolecko(50);
 
     }
 
@@ -50,77 +56,77 @@ public class HlavniProgram {
 
     public void nakreslikolecko (double r) {
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
         zofka.turnLeft(10);
-        zofka.move(5);
+        zofka.move(r);
     }
 
 
