@@ -22,11 +22,26 @@ public class HlavniProgram {
         nakresliKolecko(10);
         zofka.setLocation(100,390);
         nakresliKolecko(15);
-        zofka.setLocation(60,340);
-        nakresliKolecko(5);
-        zofka.setLocation(140,340);
-        nakresliKolecko(5);
+        zofka.setLocation(55,340);
+        nakresliKolecko(4);
+        zofka.setLocation(145,340);
+        nakresliKolecko(4);
         //masinka
+        zofka.setLocation(370,250);
+        nakresliObdelnik(180, 100);
+        zofka.setLocation(550,350);
+        zofka.turnLeft(90);
+        nakresliObdelnik(200,100);
+        nakresliKolecko(16);
+        zofka.setLocation(400,380);
+        nakresliKolecko(8);
+        zofka.setLocation(470,380);
+        nakresliKolecko(8);
+        zofka.setLocation(370,350);
+        zofka.turnLeft(60);
+        nakresliTrojuhelnik(70);
+
+
 
 
 
